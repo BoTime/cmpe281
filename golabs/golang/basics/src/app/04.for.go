@@ -4,7 +4,7 @@
 
    `for` is Go's only looping construct. Here are
    three basic types of `for` loops.
-   
+
 */
 
 package main
@@ -41,4 +41,11 @@ func main() {
         }
         fmt.Println(n)
     }
+
+    // for as while loops
+    sum := 1
+    for sum < 100 {
+      sum++
+    }
+    fmt.Println("sum = ", sum)
 }
