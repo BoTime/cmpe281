@@ -19,8 +19,8 @@ func main() {
     // dynamically-sized, flexible view into the elements of an array. In
     // practice, slices are much more common than arrays.
     primes := [6]int{2, 3, 5, 7, 11, 13}
-    var s []int = primes[1:4]
-    fmt.Println(s)
+    var sInt []int = primes[1:4]
+    fmt.Println(sInt)
 
     // Unlike arrays, slices are typed only by the
     // elements they contain (not the number of elements).
@@ -89,5 +89,3 @@ func main() {
     }
     fmt.Println("2d: ", twoD)
 }
-
-
